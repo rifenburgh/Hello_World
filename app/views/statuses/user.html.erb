@@ -1,0 +1,8 @@
+<% @statuses.inspect %>
+<div class="notice"><%= flash[:notice] %></div>
+<% @statuses.each do |status| %>
+  	<%= render partial: 'status', locals:{status:status} %>
+  	<%= @steve %>
+<% end %>
+
+

@@ -1,0 +1,4 @@
+<% @statuses.inspect %>
+<% @statuses.each do |status| %>
+  	<%= render partial: 'status', locals:{status:status} %>
+<% end %>

@@ -1,0 +1,27 @@
+// Place all the styles related to the statuses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.blue{
+    &:nth-child(even){
+         background-color: lightblue; 
+    
+    }
+    &:nth-child(odd){
+        background-color: black;
+        color: white;
+    }
+    padding-bottom: lem;
+}
+.status{
+    h3{
+        display: inline-block;
+    }
+    .date{
+        margin-left: 0.5em;
+        font-size: .8em;
+        color: white;
+    }
+    p{
+        padding-left: 54px;
+    }
+}
